@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Rashida/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/gson-2.3.1-116fb6f1755d83a0fa9690ea886ed847c607682c.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-cdca07e07e6d40483a4805d4c626f9d0d2d534bd.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-f2a273d70eec66e8b78480168848632bfff560fb.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0307b594f045d2c22e83f4004f8a9a15de92ec4a.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-135576b35110a70ee165c9eec66e06907885a975.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-fadc3fdd5abaeca2f108c371a2d085b6d464971b.jar" />
+    </item>
+
+</items>
