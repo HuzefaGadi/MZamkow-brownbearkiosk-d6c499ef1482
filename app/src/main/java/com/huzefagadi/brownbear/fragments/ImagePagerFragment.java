@@ -78,7 +78,8 @@ public class ImagePagerFragment extends BaseFragment {
 	DisplayImageOptions options;
 	Context context;
 	CountDownTimer timer;
-	PhotoRecieverInternal receiver;
+    ViewPager viewPager;
+    PhotoRecieverInternal receiver;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -111,54 +112,58 @@ public class ImagePagerFragment extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		imageAdapter = new ImageAdapter();
 		View rootView = inflater.inflate(R.layout.fr_image_pager, container, false);
-		ViewPager pager = (ViewPager) rootView.findViewById(R.id.pager);
-		pager.setAdapter(imageAdapter);
-		pager.setCurrentItem(0);
+        viewPager = (ViewPager) rootView.findViewById(R.id.pager);
+        viewPager.setAdapter(imageAdapter);
+        viewPager.setCurrentItem(0);
 		
 		try {
 		    Field mScroller;
 		    mScroller = ViewPager.class.getDeclaredField("mScroller");
 		    mScroller.setAccessible(true); 
 		    Interpolator sInterpolator = new AccelerateInterpolator();
-		    FixedSpeedScroller scroller = new FixedSpeedScroller(pager.getContext(), sInterpolator);
+		    FixedSpeedScroller scroller = new FixedSpeedScroller(viewPager.getContext(), sInterpolator);
 		    // scroller.setFixedDuration(5000);
 		  //  mScroller.set(pager, scroller);
 		} catch (NoSuchFieldException e) {
 		} catch (IllegalArgumentException e) {
 		} 
-		slideshow(pager);
+		slideshow();
 		return rootView;
 	}
 	
-	public void slideshow(final ViewPager viewpager)
+	public void slideshow()
 	{
 		if(timer == null)
 		{
 			
-			timer = new CountDownTimer(300000, 10000) {
 
-			     public void onTick(long millisUntilFinished) {
-			    	 if(i < imageUrls.size())
-			    	 {
-			    		i = viewpager.getCurrentItem()+1;
-			    		 viewpager.setCurrentItem(i);
-			    		 System.out.println("CALLED YES "+i);
-			    	 }
-			    	 else
-			    	 {
-			    		 i=0;
-			    		 viewpager.setCurrentItem(i,false);
-			    		 System.out.println("CALLED NO");
-			    	 }
-			    	  
-			     }
-
-			     public void onFinish() {
-			          this.start();
-			     }
-			  }.start();
 		}
-		
+        else
+        {
+            timer.cancel();
+        }
+        timer = new CountDownTimer(300000, 10000) {
+
+            public void onTick(long millisUntilFinished) {
+                if(i < imageUrls.size())
+                {
+                    i = viewPager.getCurrentItem()+1;
+                    viewPager.setCurrentItem(i);
+                    System.out.println("CALLED YES "+i);
+                }
+                else
+                {
+                    i=0;
+                    viewPager.setCurrentItem(i,false);
+                    System.out.println("CALLED NO");
+                }
+
+            }
+
+            public void onFinish() {
+                this.start();
+            }
+        }.start();
 		
 	}
 	
@@ -166,10 +171,18 @@ public class ImagePagerFragment extends BaseFragment {
 	public void onPause() {
 		// TODO Auto-generated method stub
 		super.onPause();
-		 
-	    context.unregisterReceiver(receiver);
+		 try
+         {
+             context.unregisterReceiver(receiver);
+         }
+         catch (Exception e)
+         {
+
+         }
+
 		if(timer!=null)
 		{
+
 			timer.cancel();
 		}
 	}
@@ -182,8 +195,9 @@ public class ImagePagerFragment extends BaseFragment {
 	    context.registerReceiver(receiver, intentFilterEdit);
 		if(timer!=null)
 		{
-			timer.start();
+            slideshow();
 		}
+
 		
 	}
 

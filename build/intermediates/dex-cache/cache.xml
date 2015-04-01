@@ -16,11 +16,25 @@
         <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-cdca07e07e6d40483a4805d4c626f9d0d2d534bd.jar" />
     </item>
     <item
-        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-135576b35110a70ee165c9eec66e06907885a975.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-f2a273d70eec66e8b78480168848632bfff560fb.jar" />
+        <dex dex="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/pre-dexed/debug/classes-d03ddd4248033b9a164ccd5bae370222fdb88c1d.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-fadc3fdd5abaeca2f108c371a2d085b6d464971b.jar" />
     </item>
     <item
         jar="/Users/Rashida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
@@ -30,18 +44,32 @@
         <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0307b594f045d2c22e83f4004f8a9a15de92ec4a.jar" />
     </item>
     <item
-        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-135576b35110a70ee165c9eec66e06907885a975.jar" />
+        <dex dex="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/pre-dexed/debug/classes-659de5d77f56eaff1093551e212d5f26d92da691.jar" />
     </item>
     <item
-        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/libs/universal-image-loader-1.9.3.jar"
+        jar="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/classes-f2a273d70eec66e8b78480168848632bfff560fb.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/libs/universal-image-loader-1.9.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="/Users/Rashida/Downloads/card.io-Android-SDK-master/MZamkow-brownbearkiosk-d6c499ef1482/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-fadc3fdd5abaeca2f108c371a2d085b6d464971b.jar" />
+        <dex dex="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-0c210135855c3edc8cfeca971051c98e478f3732.jar" />
+    </item>
+    <item
+        jar="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Rashida/Downloads/MZamkow-brownbearkiosk/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5e49a80ef18205e458a7d25674dfe9bbd6414565.jar" />
     </item>
 
 </items>

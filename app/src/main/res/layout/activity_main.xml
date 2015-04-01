@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#33A9E0"
+    android:background="#000000"
+    android:keepScreenOn="true"
     tools:context="com.example.mobileregister.MainActivity" >
 
     
